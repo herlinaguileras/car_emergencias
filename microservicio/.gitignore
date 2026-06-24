@@ -1,0 +1,13 @@
+.env
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore models and datasets
+models/
+dataset/
+logs/
+*.log
+*.zip

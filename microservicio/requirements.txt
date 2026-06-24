@@ -1,0 +1,21 @@
+# Core de la API
+fastapi==0.110.0
+uvicorn==0.29.0
+python-multipart==0.0.6
+
+# Configuración y Validación
+pydantic==2.13.4
+pydantic-settings==2.14.1
+
+# Utilidades
+httpx==0.27.0
+pillow==12.2.0
+loguru==0.7.2
+
+# Deep Learning (Inferencia)
+torch==2.12.1
+torchvision==0.27.1
+
+# Producción
+gunicorn>=21.2.0
+ultralytics>=8.0.0

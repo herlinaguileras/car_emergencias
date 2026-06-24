@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Pycache
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Configuración sensible
+.env
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Archivos de dataset y entrenamiento
+dataset/
+training/
+ENTRENAMIENTO_EN_PROGRESO.md
+
+# Solo necesitamos los modelos de producción (ej. best.pt), no todos
+models/history*.json
+models/training_history.png
+
+# Imágenes de prueba
+prueba*.jpg
