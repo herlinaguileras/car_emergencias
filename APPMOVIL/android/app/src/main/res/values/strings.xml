@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">CrashLens</string>
-    <string name="title_activity_main">CrashLens</string>
-    <string name="package_name">com.crashlens.app</string>
-    <string name="custom_url_scheme">com.crashlens.app</string>
+    <string name="app_name">DataCrash</string>
+    <string name="title_activity_main">DataCrash</string>
+    <string name="package_name">com.datacrash.app</string>
+    <string name="custom_url_scheme">com.datacrash.app</string>
 </resources>

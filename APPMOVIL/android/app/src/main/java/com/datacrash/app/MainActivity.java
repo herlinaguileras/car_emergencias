@@ -1,4 +1,4 @@
-package com.crashlens.app;
+package com.datacrash.app;
 
 import com.getcapacitor.BridgeActivity;
 
