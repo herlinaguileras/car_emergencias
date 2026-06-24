@@ -2,33 +2,44 @@
 .git
 .gitignore
 
-# Entornos virtuales
-venv/
-env/
+# Entornos virtuales y dependencias locales
 .venv/
+venv/
+ENV/
+env/
+node_modules/
 
-# Pycache
-__pycache__/
-*.pyc
-*.py[cod]
-*$py.class
-
-# Configuración sensible
-.env
-
-# Testing
+# Caché de Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
 .pytest_cache/
-htmlcov/
-.coverage
+.ipynb_checkpoints/
 
-# Archivos de dataset y entrenamiento
+# Archivos de entorno y credenciales
+.env
+.env.*
+*.log
+
+# Carpetas pesadas de entrenamiento y datasets
 dataset/
+dataset.zip
 training/
-ENTRENAMIENTO_EN_PROGRESO.md
+tests/
 
-# Solo necesitamos los modelos de producción (ej. best.pt), no todos
+# Modelos intermedios y archivos de historial innecesarios
 models/history*.json
-models/training_history.png
+models/checkpoint*.pt
+**/runs/
 
-# Imágenes de prueba
+# Fotos de prueba locales
 prueba*.jpg
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
