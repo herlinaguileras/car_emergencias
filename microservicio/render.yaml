@@ -8,3 +8,7 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.0
+      - key: MODEL_PROVIDER
+        value: torch
+      - key: MODEL_PATH
+        value: models/best_mobile.pt

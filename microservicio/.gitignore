@@ -5,8 +5,11 @@ __pycache__/
 *.pyc
 .DS_Store
 
-# Ignore models and datasets
-models/
+# Ignore models and datasets except best weights and history
+models/*
+!models/best_*.pt
+!models/history*.json
+!models/.gitkeep
 dataset/
 logs/
 *.log
